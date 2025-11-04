@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: Helvetica;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.margen{
+  padding: 15px;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.contenedorpadrebanner{
+  background-color: #fff9f1;
+}
+
+.linearosa{
+  background-color: #ff3281;
+  height: 15px;
+  width: 100%;
+  margin: auto;
+}
+
+.logospacabecera{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logofitcabecera{
+  padding-left: 800px;
+  width: 1000px;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.botonescabecera{
+  border: 4px black solid;
+  margin: auto;
+}
+
+.botonescabecera a{
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.imagenfondo{
+  width: 100%;
+  height: 600px;
+  background-image: url("imagenes/fondopiedras.jpg");
+  position: center;
+  background-size: cover;
+}
+
+.titulo1{
+  color: white;
+  padding-top: 180px;
+  font-size: 50px;
+}
+.texto1{
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+}
+
+.botonsolicitar{
+  background-color: #ff3281;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.botonvideo{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border: 1px #ff3281 solid;
+}
+
+.botonvideo:hover{
+  background-color: #ff3281;
+}
+
+.contenedorhijo1{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.contenedorhijo2{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.contenedorpadre2{
+  background-color: #fff9f1;
+}
+
+.contenedorhijo3{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.aromatizante{
+  width: 100%;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.contenedorhijo4{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.noticias{
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.contenedorhijo5{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedorhijo6{
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.formulario{
+  border: 4px #ff3281 solid;
+  padding: 20px;
+}
+
+.formulario input{
+  width: 100%;
+  height: 50px;
+  font-size: 100%;
+  border-radius: 10px;
+  border: 1px #9a9a9a solid;
+}
+
+.formulario button{
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+
+.email{
+  font-weight: bold;
+}
+
+.bannerabajo{
+  background-color: #fff9f1;
+}
+
+.logoabajo{
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.nombresss{
+  text-align: right;
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.textorosa{
+  color: #ff3281;
+  font-weight: bold;
+  padding-left: 800px;
+}

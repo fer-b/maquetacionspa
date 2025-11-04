@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descripción de la web">
+  <link rel="stylesheet" href="estlos.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <title>Spa Salon</title>
+</head>
+<body>
+  <div class="contenedorpadrebanner">
+  <hr class="linearosa">
+    <div class="ancho margen centrar">
+      <div class="ancho margen centrar logospacabecera">
+        <img src="imagenes/logocabecera.jpg" alt="logo_cabecera">
+      </div>
+      <div class="ancho margen centrar logofitcabecera">
+        <img src="imagenes/icono_facebook.jpg" alt="logo_fb">
+        <img src="imagenes/icono_instagram.jpg" alt="logo_ig">
+        <img src="imagenes/icono_twitter.jpg" alt="logo_tw">
+      </div>
+    </div>
+    <div class="ancho margen centrar botonescabecera">
+      <a href="#Galeria">GALERÍA</a>
+      <a href="#Precios">PRECIOS</a>
+      <a href="#Contactanos">CONTÁCTANOS</a>
+      <a href="#Equipo">EQUIPO</a>
+    </div>
+  </div>
+  <div class="imagenfondo">
+    <div class="ancho margen centrar">
+      <h1 class="titulo1">PROMOCIONES DE MARZO</h1>
+      <br>
+      <h2 class="texto1">Se acerca la época de playa y por eso preparamos estas dos promociones ideales para ti.</h2>
+      <br><br>
+      <a class="botonsolicitar" href="#Solicitar">Solicitar promoción</a>
+      <a class="botonvideo" href="https://youtu.be/w4qaODLR_Xg?si=TOqUGmWLNQwtsvWN" target="_blank">Ver video</a>
+    </div>
+  </div>
+  <div class="ancho margen contenedorpadre1">
+    <div class="contenedorhijo1">
+      <h2>Los productos Science of Beauty</h2>
+      <br><br>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque odit, est vero voluptatibus fuga ullam vitae. Libero, dolor excepturi sit animi possimus quasi! Sit ipsam aut iure autem mollitia officia?</p>
+    </div>
+    <div class="contenedorhijo2">
+      <img src="imagenes/fotovelas.jpg" alt="velas">
+    </div>
+  </div>
+  <br><br>
+  <div class="contenedorpadre2">
+    <h2 class="ancho margen centrar">Buscamos talento para integrarlos a nuestro equipo</h2>
+    <div class="ancho margen">
+      <div class="ancho margen contenedorhijo3">
+        <img class="aromatizante" src="imagenes/fotoaromatizante.jpg" alt="aromatizantes">
+      </div>
+      <div class="acho margen contenedorhijo4">
+        <h3>Puesto de trabajo para recepcionista</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium eum commodi vitae, eaque, incidunt perspiciatis quibusdam voluptatum, hic possimus cupiditate eos quia nostrum quidem! Assumenda repudiandae facere dolor corporis!</p>
+        <br><br>
+        <h3>Puesto de trabajo para masajista</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis aspernatur deleniti dolore saepe doloribus quod quaerat dicta nostrum eius porro impedit odit, numquam omnis non at distinctio iusto, facilis optio.</p>
+        <br><br>
+        <h3>Puesto de trabajo para nutriólogo</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores accusamus dolores ipsa dolor eaque saepe, nulla beatae natus maxime voluptatem veritatis vel debitis eligendi, totam consectetur possimus cumque fugit ab?</p>
+      </div>
+    </div>
+  </div>
+  <div class="ancho margen contenedorpadre3">
+    <div class="contenedorhijo5">
+      <h2 class="noticias">Recibe noticias y promociones de SPA SALON</h2>
+      <p>Un lugar para consentirte de pies a cabeza</p>
+      <p>Servicio de salón estética y Spa personalizado</p>
+      <p>TELÉFONO: 999 420 8871</p>
+      <br>
+      <p>CORREO: info@spasalon.com</p>
+      <br>
+    
+      <form class="formulario" action="index.html" id="forms">
+        <label class="email" for="email">Tu dirección de correo electrónico</label>
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="tunombre@example.com">
+        <br><br>
+        <button type="button" id="validar">Enviar</button>
+      </form>
+    </div>
+    <div class="contenedorhijo6">
+      <h2>Nuestras instalaciones</h2>
+      <iframe  width="550" height="300" src="https://www.youtube.com/embed/w4qaODLR_Xg" title="SPA RECEPTION INTERIOR DESIGN - SPA HOA PHAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <br><br>
+  <div class="bannerabajo">
+    <div class="ancho margen">
+      <div class="ancho margen logoabajo">
+        <img src="imagenes/logo_spa.png" alt="logo_spa">
+      </div>
+      <div class="ancho nombresss">
+        <p class="textorosa">Canul Bolio Fernando Yahir</p>
+        <p class="textorosa">Programación web</p>
+        <p class="textorosa">7SB</p>
+      </div>
+    </div>
+  </div>
+  <hr class="linearosa">
+
+  <!-- validacion -->
+  <script>
+    $("#validar").click(function () {
+      if($("#email").val()==""){
+        alert("Ingresa una dirección de correo electrónico.")
+        $("#email").focus();
+        return false;
+      }
+    document.getElementById("forms").submit(); 
+    }
+  )
+  </script>
+</body>
+</html>
